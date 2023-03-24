@@ -1,0 +1,111 @@
+main{
+    padding: 20px 250px 80px 250px;
+}
+.latest{
+    height: auto;
+    padding: 2px 0;
+}
+#dg{
+    display: flex;
+}
+#dg img{
+    border-right: 3px gray solid;
+    padding: 10px;
+    margin-top: 20px;
+}
+#wom{
+    width: 40%;
+    color: azure;
+    text-align: center;
+    background-color: green;
+    margin-top: 30px;
+
+
+}
+#bio{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 0 20px;
+}
+#infor{
+    display: flex;
+}
+#infor h2{
+    background-color: green;
+    color: white;
+    margin-left: 300px;
+}
+#info p{
+    margin-left: 300px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 2px solid gray;
+}
+#for h2{
+    background-color: green;
+    color: white;
+    width: 60%;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+
+
+}
+#for a{
+    text-decoration: none;
+    color: green;
+    font-size: 25px;
+}
+#foreign{
+    display: flex;
+    justify-content: space-between;
+}
+#fore h2{
+    font-size: 19px;
+
+}
+#fore p a{
+    text-decoration: none;
+    color: green;
+}
+#media p{
+    border-bottom: solid green 3px;
+    padding: 15px 0;
+    font-size: 18px;
+
+}
+#quick p{
+    border-bottom: solid rgb(165, 160, 160) 2px;
+    padding: 8px 0;
+    font-size: 15px;
+    margin: 0 10px;
+    cursor: pointer;
+
+
+
+}
+#quick p:hover{
+    border-bottom:solid 2px green;
+    transition: .4s;
+    transform: translateX(18px);
+
+}
+#quick img{
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    padding: 10px 0;
+
+}
+#quick img:hover{
+    border-bottom: solid 2px green;
+    transition: .4s;
+    transform: translateX(18px);
+}
+#home li a{
+    border-right: 2px solid black;
+}
+#home li:hover{
+    background-color: orange;
+}
